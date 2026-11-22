@@ -391,6 +391,7 @@
         <a href="#proof">验证数据</a>
         <a href="#technology">技术路径</a>
         <a href="#delivery">交付方案</a>
+        <a href="#publication">学术论文</a>
       </nav>
       <div class="nav-actions">
         <span class="status-pill" id="nav-status"><i class="status-dot"></i><span>模型加载中</span></span>
@@ -579,6 +580,30 @@
         <div class="delivery-cta">
           <div><h3>先看效果，再定接入方式。</h3><p>真实模型、真实交互、真实数据口径，需求方可以直接上手验证。</p></div>
           <a class="btn btn-primary" href="#demo">返回识别工作台<svg><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section publication-section" id="publication">
+      <div class="container">
+        <div class="section-head">
+          <div><div class="eyebrow">Published research</div><h2>不止于 demo，<br>也有正式发表的研究。</h2></div>
+          <p>第一作者论文已于 2026 年 11 月 4 日在 SSRN 正式发布，DOI 注册生效。以下为论文信息与核心实证结果，全文与复现代码均公开。</p>
+        </div>
+        <article class="delivery-card current">
+          <span class="delivery-tag">SSRN · FIRST AUTHOR · NOV 2026</span>
+          <h3>Time-Series Momentum in the ETF Era: Decay of the Long–Short Premium and the Case for Long-Only, Volatility-Targeted Trend Allocation</h3>
+          <p>Fang, X. (2026). SSRN Working Paper No. 7670198. DOI: <a href="https://doi.org/10.2139/ssrn.7670198" target="_blank" rel="noopener">10.2139/ssrn.7670198</a> · 复现代码：<a href="https://github.com/fxhhfx/tsmom-etf-paper" target="_blank" rel="noopener">github.com/fxhhfx/tsmom-etf-paper</a></p>
+          <p>基于 11 只跨资产 ETF（2007–2026）的交易成本感知回测：T+1 执行避免前视偏差，EWMA（RiskMetrics λ=0.94）波动率，Newey–West 检验与 5,000 次 block bootstrap，固定随机种子可完整复现。</p>
+        </article>
+        <div class="proof-grid">
+          <article class="proof-card"><div class="proof-index">01 / NET SHARPE</div><div class="proof-value">0.58</div><h3>多头策略净夏普（t = 2.75）</h3><p>经典多空动量溢价已衰减至不显著（净 Sharpe 0.25）；多头、多周期（3/6/12 个月）、波动率目标策略在计入交易成本后依然显著。</p></article>
+          <article class="proof-card"><div class="proof-index">02 / MAX DRAWDOWN</div><div class="proof-value">−20.4%</div><h3>同期 SPY 为 −55.2%</h3><p>趋势过滤与波动率目标显著压缩尾部回撤，风险控制效果在全样本内稳定。</p></article>
+          <article class="proof-card"><div class="proof-index">03 / CRISIS ALPHA</div><div class="proof-value">−1.9%</div><h3>2008–09 金融危机期间</h3><p>同期股票 −36.9%，策略展现危机阿尔法；年换手率由 25× 降至 8× 而夏普比率不降。</p></article>
+        </div>
+        <div class="delivery-cta">
+          <div><h3>论文、数据与代码全部公开。</h3><p>SSRN 全文与完整复现代码，欢迎审阅与验证。</p></div>
+          <a class="btn btn-primary" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7670198" target="_blank" rel="noopener">阅读 SSRN 全文<svg><use href="#i-arrow"/></svg></a>
         </div>
       </div>
     </section>
